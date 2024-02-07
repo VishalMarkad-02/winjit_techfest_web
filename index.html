@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    
+  </style>
+</head>
+
+<body class="BG">
+  
+  <div  class="content" id="home">
+  <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./Company_logo.png"  height="30px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#home" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#page_2" >About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#page_3">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#speaker">Speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#page_4">Workshop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#page_5">Register</a>
+          </li>
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div class="hero-container">
+    <img class="d-block mx-auto mb-0" src="./Logo_techfest.jpg" alt="" width="100" height="auto">
+    <div class="hero-content">
+      
+      <h1 class="display-5 fw-bold text-body-emphasis">Winjit Tech Fest</h1>
+      <p class="lead mb-4">Join us on 9th February 2024</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <p><a class="btn btn-lg btn-primary mb-4" href="./Registration.html">Register Now</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="page_2 pt-5" id="page_2">
+    
+  <div class="px-4 pt- my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">About Winjit Tech Fest</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class=" mb-4">Winjit Tech Fest is a premier event for Computer Engineering students to showcase their technical skills and learn from industry experts. The event features workshops, tech talks, coding competitions, and much more.</p>
+      
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./techfest_live1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./techfest_live2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./techfest_live3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+<div class="page_3 pt-5" id="page_3">
+  <div class="container px-4 py-5" id="hanging-icons">
+    <h1 class="pb-2 border-bottom pt-5 mt-5">Upcoming Events</h1>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img src="./eventpng1.png" width="40px" height="35px" alt="">
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Tech Talk</h3>
+          <p>Event Time:<Strong>10 am</Strong></p>
+          <p>Our event is packed with exciting sessions. Check out the schedule below.</p>
+          <a href="#" class="icon-link">
+            Read More
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img src="./eventpng2.png" width="40px" height="35px" alt="">
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Game Jam</h3>
+          <p>Event Time:<Strong>10 am</Strong></p>
+          <p>Exciting opportunities for attendees to win prizes, participate in interactive tech demonstrations, and engage in hands-on activities.</p>
+          <a href="#" class="icon-link">
+            Read More
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img src="./eventpng3.png" width="40px" height="35px" alt="">
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Tech Quiz</h3>
+          <p>Event Time:<Strong>10 am</Strong></p>
+          <p>"Kon Banega Tech Star" is a thrilling contest for tech lovers to show off their creative skills and win big!</p>
+          <a href="#" class="icon-link">
+            Read More
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="speaker pt-5 " id="speaker">
+<div class="container px-4 py-5" id="hanging-icons">
+  <h1 class="pb-2 border-bottom pt-5 mt-5">Guest Speakers</h1>
+  <h6>Two segments where in we have podcast setup with the expert on the insights of hackathon and background of the hackathon problem statement.
+    The tech talk is divided into different parts with a short break in between. Here's what you can expect. </h6>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <img src="./Guest_png3.png" width="40px" height="35px" alt="">
+      </div>
+      <div>
+        <h3 class="fs-2 text-body-emphasis">Guest 1</h3>
+        <strong>Dhwani Modi</strong><br/>
+        Employee Experience and Engagement | Corporate Communication and Employer Branding
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <img src="./guest_png2.png" width="40px" height="35px" alt="">
+      </div>
+      <div>
+        <h3 class="fs-2 text-body-emphasis">Guest 2</h3>
+        <strong>Anisha Gaikwad </strong> <br/>
+        Human Capital | Compliances | Talent Acquisition | Campus Hiring Team @winjit
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <img src="./Guest_png1.png" width="40px" height="35px" alt="">
+      </div>
+      <div>
+        <h3 class="fs-2 text-body-emphasis">Guest 3</h3>
+        <strong>Siddhi Karle</strong> <br/>
+        Executive - Human Resources | Recruitment | Employee Experience @winjit
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="page_4" id="page_4">
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="400px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Workshops.</h1>
+            <p class="opacity-75">The workshop is divided into different sessions with a short break in between. Here's what you can expect.</p>
+            <p><a class="btn btn-lg btn-primary" href="./Registration.html">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="400px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Tech Talks.</h1>
+            <p>Empower your tech journey with our vibrant Tech Talks! Join us at TechFest and dive into cutting-edge discussions shaping the future of technology.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="400px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Hackathon</h1>
+            <p>A large-scale coding competition encouraging participants to solve real-world problems using technology with exciting prize money.</p>
+            <p><a class="btn btn-lg btn-primary" href="#page_2">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<div class="album py-5 bg-body-tertiary">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./AI_img.avif" class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" alt="Thumbnail">
+
+            <div class="card-body">
+              <p class="card-text">Time: 10:00 AM - 11:00 PM
+
+                Learn how <strong>AI</strong> is revolutionizing web development. This workshop will cover AI-driven design, content creation, and more.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='./Registration.html'">Register</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://events.withgoogle.com/ai-workshop/'">Explore</button>
+                </div>
+                <small class="text-body-secondary">1 hour</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./web3_img.avif" class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" alt="Thumbnail">
+            <div class="card-body">
+              <p class="card-text">Time: 11:00 AM - 12:00 PM
+
+                Master the fundamentals of concepts like NFTs,dApp and <strong>Web 3.0</strong> infrastructure and more about the technology like this </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='./Registration.html'">Register</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.digitalnexa.com/web3-and-metaverse-workshop'">Explore</button>
+                </div>
+                <small class="text-body-secondary">1 hour</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./chatgpt_img.avif" class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" alt="Thumbnail">
+            <div class="card-body">
+              <p class="card-text">Time: 1:00 AM - 2:00 PM
+                
+                Master the skills of prompt Engineering int the world of AI with powerful tools like <strong>ChatGpt</strong>.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='./Registration.html'">Register</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://be10x.in/ai-tools-workshop-ga10/?utm_source=pmax&utm_medium=branded&utm_campaign=conversion&utm_campaign=20549305647&utm_term=&utm_content=&utm_id=20549305647&gclid=CjwKCAiA8YyuBhBSEiwA5R3-Ez97dQpRzci4uu2cifaSNolVig-piqYsdEZfCCABgzEgYXFfTVzAvBoCGp0QAvD_BwE'">Explore</button>
+                </div>
+                <small class="text-body-secondary">1 hour</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./app_dev.avif" class="bd-placeholder-img card-img-top" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" alt="Thumbnail">
+            <div class="card-body">Time: 2:00 AM - 3:00 PM
+
+
+              <p class="card-text">Learn <strong>android developement</strong> from basics and launch your own Applications. and grow your skills with training. </p> 
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='./Registration.html'">Register</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://developer.android.com/'">Explore</button>
+                </div>
+                <small class="text-body-secondary">1 hour</small>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+    </div>
+<div class="page_5 mt-5 " id="page_5">
+  <div class="container px-4 mt-5 pt-5 " id="hanging-icons">
+    <h1 class="pb-2 border-bottom pt-5 ">Registration Form</h1>
+  <section class="vh-100">
+    <div class="container-fluid h-custom">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-md-9 col-lg-6 col-xl-5">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+            class="img-fluid" alt="Sample image">
+        </div>
+        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+          <form>
+            <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+              <p class="lead fw-normal mb-0 me-3">Sign in with</p>
+              <a href="https://www.gmail.com" class="btn btn btn-floating mx-1">
+                <img src="./google.png" alt="Google" style="width: 24px; height: 24px;">
+              </a>
+            
+              <a href="https://www.fb.com" class="btn btn btn-floating mx-1">
+                <img src="./facebook.png" alt="Facebook" style="width: 24px; height: 24px;">
+              </a>
+            
+              <a href="https://www.x.com" class="btn btn btn-floating mx-1">
+                <img src="./twitter.png" alt="Twitter" style="width: 24px; height: 24px;">
+              </a>
+            </div>
+            
+            
+  
+            <div class="divider d-flex align-items-center my-4">
+              <p class="text-center fw-bold mx-3 mb-0">Or</p>
+            </div>
+  
+            
+            <div class="form-outline mb-4">
+              <input type="email" id="form3Example3" class="form-control form-control-lg"
+                placeholder="Enter a valid email address" />
+              <label class="form-label" for="form3Example3">Email address</label>
+            </div>
+  
+            
+            <div class="form-outline mb-3">
+              <input type="password" id="form3Example4" class="form-control form-control-lg"
+                placeholder="Enter password" />
+              <label class="form-label" for="form3Example4">Password</label>
+            </div>
+  
+            <div class="d-flex justify-content-between align-items-center">
+              
+              <div class="form-check mb-0">
+                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+                <label class="form-check-label" for="form2Example3">
+                  Remember me
+                </label>
+              </div>
+              <a href="#!" class="text-body">Forgot password?</a>
+            </div>
+  
+            <div class="text-center text-lg-start mt-4 pt-2">
+              <button type="button" class="btn btn-primary btn-lg"
+                style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+              <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="./Registration.html"
+                  class="link-danger">Register</a></p>
+            </div>
+  
+          </form>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+</div>
+<div class="footer ">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top mt-5">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <svg class="bi" width="20" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Winjit Tech Fest. All rights reserved.</span>
+    </div>
+  
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-5">
+        <a class="text-body-secondary" href="https://www.instagram.com/winjittech/?hl=en">
+          <img src="./instagram.png" width="20" height="20" alt="Instagram">
+        </a>
+      </li>
+      
+      <li class="ms-5">
+        <a class="text-body-secondary" href="https://www.facebook.com/Winjit">
+          <img src="./facebook.png" width="20" height="20" alt="Facebook">
+        </a>
+      </li>
+      <li class="ms-5">
+        <a class="text-body-secondary" href="https://www.linkedin.com/company/winjit-technologies/?viewAsMember=true">
+          <img src="./linkedin.png" width="20" height="20" alt="LinkedIn">
+        </a>
+      </li>
+      <li class="ms-5">
+        <a class="text-body-secondary" href="#">
+          
+        </a>
+      </li>
+      <li class="ms-5">
+        <a class="text-body-secondary" href="#">
+          
+        </a>
+      </li>
+     
+    </ul>
+    
+  </footer>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-p9FJahDg1WTIUVW6a+Ycsiz6XPBFF6y2ZZTKOW5v9vwwq3fH/EEu2c7u6fCSqOdz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
